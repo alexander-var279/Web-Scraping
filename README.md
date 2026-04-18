@@ -1,5 +1,4 @@
 # Web-Scraping
-# Web-Scraping
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1p7ksw_tGP39OpAXO4GH7QkXtr0LqogvF#scrollTo=301b2dda)
 
