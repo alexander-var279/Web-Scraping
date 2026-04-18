@@ -1,33 +1,41 @@
 # Web-Scraping
+Web-Scraping
 
-📚 Web Scraping y Análisis de Texto
-
+📊 Web Scraping y Análisis de Texto
 🧠 Descripción
 
 En este proyecto se realiza la extracción y análisis de datos de libros desde Books to Scrape.
+
 Se combinan técnicas de web scraping y procesamiento de lenguaje natural (NLP) para explorar cómo las palabras en los títulos pueden relacionarse con el precio de los libros.
 
 ⚙️ Metodología
-Web Scraping:
-Extracción de títulos y precios de los libros y construcción de un DataFrame.
-Limpieza de texto:
-Conversión a minúsculas, eliminación de stopwords, números y caracteres especiales → datos_limpios.
-Análisis de n-gramas:
-Cálculo de frecuencias y generación de una nube de palabras para identificar términos más comunes.
-Matriz TF (Term Frequency):
-Representación de la frecuencia de palabras por libro, incluyendo el precio como variable adicional.
-Variables binarias:
-Selección de palabras clave y análisis de su presencia (1) o ausencia (0) en relación con el precio.
-Visualización:
-Gráficos de barras para comparar cómo influye la aparición de ciertas palabras en el valor de los libros.
+🔹 Web Scraping
+Extracción de títulos y precios
+Construcción de un DataFrame
+🔹 Limpieza de texto
+Conversión a minúsculas
+Eliminación de stopwords, números y caracteres especiales
+Resultado: datos_limpios
+🔹 Análisis de n-gramas
+Cálculo de frecuencias
+Generación de nube de palabras
+🔹 Matriz TF
+Frecuencia de palabras por libro
+Se añade el precio como variable
+🔹 Variables binarias
+Presencia (1) o ausencia (0) de palabras clave
+Análisis del impacto en el precio
+🔹 Visualización
+Gráficos de barras
+Comparación entre palabras y precios
 🛠️ Tecnologías
-Python 🐍
+Python
 Pandas
 BeautifulSoup
 Requests
 Matplotlib / Seaborn
 WordCloud
-📊 Objetivo
+🎯 Objetivo
 
 Identificar patrones en los títulos de libros y analizar si ciertas palabras están asociadas con precios más altos o más bajos.
 
